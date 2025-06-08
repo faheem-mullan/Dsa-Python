@@ -1,7 +1,6 @@
 # DSA-Python: Blind 75 Solutions
 
-This repository contains my **Python solutions** to the **Blind 75** Data Structures and Algorithms problems — a must-know set of interview questions frequently asked at top tech companies.
-
+This repository contains my **Python solutions** to the **Blind 75** Data Structures and Algorithms problems.
 ---
 
 ## What is Blind 75?
