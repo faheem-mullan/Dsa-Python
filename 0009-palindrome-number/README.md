@@ -1,15 +1,25 @@
-# Palindrome Number
+# 0009. Palindrome Number
 
 **Problem:** [LeetCode - Palindrome Number](https://leetcode.com/problems/palindrome-number/)  
 **Difficulty:** Easy  
-**Approach:** String reversal / mathematical comparison
+**Category:** Math  
+**Approach:** Integer Reversal / String Conversion
 
-### Description
-Determine whether an integer is a palindrome. Do this without converting the integer to a string (if possible).
+---
 
-### Time Complexity
-- Time: O(log₁₀N)
-- Space: O(1)
+## 📘 Problem Statement
 
-### Notes
-- Edge case: negative numbers are never palindromes.
+Given an integer `x`, return `true` if `x` is a **palindrome**, and `false` otherwise.
+
+---
+
+## 🔍 Examples
+
+```txt
+Input:  x = 121  
+Output: true  
+Explanation: 121 reads the same forward and backward.
+```
+---
+📌 Constraints
+-2³¹ <= x <= 2³¹ - 1
