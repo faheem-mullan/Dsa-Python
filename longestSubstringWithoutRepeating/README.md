@@ -28,4 +28,7 @@ Given a string `s`, find the length of the longest substring without repeating c
 
 ---
 
-## 🕰️ Time C
+## 🧮 Time & Space Complexity
+
+- **Time Complexity:** `O(n)` – Each character is processed at most twice.
+- **Space Complexity:** `O(min(n, m))` – `m` is the size of the character set.
