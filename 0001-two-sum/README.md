@@ -23,7 +23,11 @@ You may assume:
 ```txt
 Input:  nums = [2, 7, 11, 15], target = 9  
 Output: [0, 1]
+```
+---
+## Constraints
+2 <= nums.length <= 10⁴
 
-Time: O(n)
+-10⁹ <= nums[i], target <= 10⁹
 
-Space: O(n)
+Only one valid answer exists
