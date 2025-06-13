@@ -1,4 +1,4 @@
-<<<<<<< HEAD:longestSubstringWithoutRepeating/README.md
+
 # Longest Substring Without Repeating Characters
 
 **Problem:** [LeetCode #3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  
