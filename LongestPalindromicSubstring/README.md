@@ -1,37 +1,35 @@
 # Longest Palindromic Substring
 
-**Problem:** LeetCode - Longest Palindromic Substring  
+**Problem:** [LeetCode #5](https://leetcode.com/problems/longest-palindromic-substring/)  
 **Difficulty:** Medium  
-**Approach:** Expand Around Center / Dynamic Programming (optional)
+**Tags:** String, Dynamic Programming, Expand Around Center
 
 ---
 
-## Description
+## 🧠 Problem Statement
 
 Given a string `s`, return the **longest palindromic substring** in `s`.
 
-A palindrome is a string that reads the same forward and backward.
-
 ---
 
-## Time Complexity
-
-- **Time:** O(n²) — We expand around each character (and gap) as a center.
-- **Space:** O(1) — Constant space using two pointers.
-
----
-
-## Notes
-
-- You can expand around every possible center: characters and between characters.
-- For each center, expand outward while characters match.
-- Keep track of the longest valid palindrome found.
-- DP solution also exists, but expand-around-center is simpler and faster in practice.
-
----
-
-## Example
+## 🧪 Example
 
 **Input:** `"babad"`  
 **Output:** `"bab"` or `"aba"`  
-**Why:** Both are palindromes of length 3.
+**Explanation:** Both are valid palindromes of length 3.
+
+---
+
+## 🚀 Approach
+
+- Use the **expand around center** technique.
+- Consider each character (and the gap between characters) as the center of a palindrome.
+- Expand outward while the characters on both sides are equal.
+- Keep track of the longest palindrome found.
+
+---
+
+## 🧮 Time & Space Complexity
+
+- **Time Complexity:** `O(n²)` – We expand from each of the `2n - 1` possible centers.
+- **Space Complexity:** `O(1)` – Constant space if no dynamic programming table is used.
