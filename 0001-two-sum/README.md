@@ -1,16 +1,29 @@
-# Two Sum
+# 0001. Two Sum
 
 **Problem:** [LeetCode - Two Sum](https://leetcode.com/problems/two-sum/)  
 **Difficulty:** Easy  
-**Approach:** HashMap
+**Category:** Array, Hash Table  
+**Approach:** Single-pass Hash Map
 
-### Description
-Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to target.
+---
 
-### Time Complexity
-- Time: O(n)
-- Space: O(n)
+## 📘 Problem Statement
 
-### Notes
-- Uses a dictionary to store seen values.
-- Returns early when solution found.
+Given an array of integers `nums` and an integer `target`, return **indices** of the two numbers such that they **add up to target**.
+
+You may assume:
+- Each input has **exactly one solution**.
+- You may **not use the same element twice**.
+- Return the answer in **any order**.
+
+---
+
+## 🔍 Examples
+
+```txt
+Input:  nums = [2, 7, 11, 15], target = 9  
+Output: [0, 1]
+Input:  nums = [3, 2, 4], target = 6  
+Output: [1, 2]
+Input:  nums = [3, 3], target = 6  
+Output: [0, 1]
