@@ -43,4 +43,26 @@ Area = `min(8, 7) * (8 - 1) = 7 * 7 = 49`
 
 ## 🧠 Approach  
 
-### 🔧 Two-Pointer Te
+### 🔧 Two-Pointer Technique  
+- Start with two pointers at the beginning and end of the array  
+- At each step, calculate the area between the two lines  
+- Move the pointer pointing to the **shorter** line inward  
+- Track the **maximum area** found  
+- Repeat until pointers meet  
+
+Efficient, elegant, and only one pass through the array.
+
+---
+
+## 📈 Time and Space Complexity  
+
+| Metric            | Value   |
+|------------------|---------|
+| 🕒 Time Complexity | O(n)    |
+| 🧠 Space Complexity| O(1)    |
+
+---
+
+## 📁 Files  
+- `solution.py` — Python implementation using the two-pointer method  
+- `README.md` — This file
